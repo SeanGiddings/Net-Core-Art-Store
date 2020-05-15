@@ -1,6 +1,23 @@
 ﻿body {
+    background-image: url("../images/bg.jpg");
+    background-color: #000;
+    background-size: cover;
+    color: #fff;
 }
 
 .test {
     color: #f00;
+}
+
+.navbar-brand {
+    margin: 15px auto;
+    display: block;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+a.nav-link {
+    color: #fff;
 }
