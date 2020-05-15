@@ -1,8 +1,11 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+body {
     background-image: url("../images/bg.jpg");
     background-color: #000;
     background-size: cover;
     color: #fff;
+    font-family: 'Sanchez', serif;
 }
 
 .test {
@@ -18,6 +21,19 @@
     background-color: #000;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 a.nav-link {
     color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler {
+    margin: 0 auto;
+    width: 110px;
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
 }
