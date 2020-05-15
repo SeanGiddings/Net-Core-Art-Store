@@ -47,11 +47,20 @@ a.nav-link {
 /*** Store Page ***/
 
 .product__row {
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 .product__card {
-    max-width: 48%;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .product__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product__card {
+        max-width: 48%;
+    }
 }
