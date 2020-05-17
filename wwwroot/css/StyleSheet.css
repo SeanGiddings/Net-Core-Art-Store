@@ -7058,18 +7058,18 @@ a.nav-link {
   border-color: white; }
 
 /*** Store Page ***/
-.product__row {
+.product__row, .detail__row {
   display: block; }
   @media (min-width: 576px) {
-    .product__row {
+    .product__row, .detail__row {
       display: flex;
       justify-content: space-between; } }
 
-.product__card {
+.product__card, .detail__card, .detail__image-container {
   text-align: center;
   margin-bottom: 30px; }
   @media (min-width: 576px) {
-    .product__card {
+    .product__card, .detail__card, .detail__image-container {
       max-width: 48%; } }
 
 /*
