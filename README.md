@@ -1,4 +1,6 @@
-﻿# Net Core Art Store
+﻿![.NET Core](https://github.com/SeanGiddings/Net-Core-Art-Store/workflows/.NET%20Core/badge.svg)
+
+# Net Core Art Store
 
 This is a Web Application built in .Net Core that provides an interface to purchase artwork.
 
