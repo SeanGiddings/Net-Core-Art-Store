@@ -7070,7 +7070,7 @@ a.nav-link {
   margin-bottom: 30px; }
   @media (min-width: 576px) {
     .product__card, .detail__card, .detail__image-container {
-      max-width: 48%; } }
+      width: 48%; } }
 
 /*
 @media (min-width: 576px) {

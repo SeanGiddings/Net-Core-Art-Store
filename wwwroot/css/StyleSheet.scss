@@ -63,7 +63,7 @@ a.nav-link {
     margin-bottom: 30px;
 
     @include media-breakpoint-up(sm) {
-        max-width: 48%;
+        width: 48%;
     }
 }
 /*

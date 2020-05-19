@@ -9,8 +9,11 @@ namespace Net_Core_Art_Store.Pages
 {
     public class DetailModel : PageModel
     {
+        public string productTitle { get; set; }
+
         public void OnGet()
         {
+            @ViewData["productTitle"] = "Hello World";
         }
     }
 }
